@@ -1,7 +1,7 @@
 # SchlPulse — WhatsApp Parent Communication Agent
 
 ## Problem
-[2 sentences. What pain. Who feels it.]
+Parent-teacher communication in Kenyan schools suffers from significant gaps. Several parents in Kenya lack an understanding of the new education system; and this has been an impediment to the successful implementation of competency-based curriculum in primary schools in the country. This lack of understanding has been further impaired by poor communication between parents and the school, which subsequently contribute to student indiscipline and lower academic achievement. 
 
 ## Solution
 [2 sentences. What SchlPulse does.]
