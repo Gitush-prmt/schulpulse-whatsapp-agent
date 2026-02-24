@@ -1,10 +1,10 @@
-# SchulPulse — WhatsApp Parent Communication Agent
+# SchlPulse — WhatsApp Parent Communication Agent
 
 ## Problem
 [2 sentences. What pain. Who feels it.]
 
 ## Solution
-[2 sentences. What SchulPulse does.]
+[2 sentences. What SchlPulse does.]
 
 ## System Architecture
 [Screenshot of Make scenario with annotations]
