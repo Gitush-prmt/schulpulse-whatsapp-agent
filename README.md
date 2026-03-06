@@ -1,10 +1,10 @@
-# SchlPulse — WhatsApp Parent Communication Agent
+# SchulPulse — WhatsApp Parent Communication Agent
 
 ## Problem
 Parent-teacher communication in Kenyan schools suffers from significant gaps — exacerbated by parents' limited understanding of the Competency-Based Curriculum (CBC), manual messaging overload, missed announcements, and inaccessible updates — leading to low parent engagement, student indiscipline, and declining academic achievements. School admins also waste numerous hours on calls and chases, while parents struggle with shift conflicts, data issues, and school operational changes.
 
 ## Solution
-SchlPulse, an AI-powered WhatsApp bot, addresses this by enabling 24/7 automated pushes of announcements, schedules, report cards, alerts, and FAQ answers — streamlining communication between parents and teachers/school administrators
+SchulPulse, an AI-powered WhatsApp bot, addresses this by enabling 24/7 automated pushes of announcements, schedules, report cards, alerts, and FAQ answers — streamlining communication between parents and teachers/school administrators
 
 ## System Architecture
 [Screenshot of Make scenario with annotations]
@@ -14,7 +14,7 @@ SchlPulse, an AI-powered WhatsApp bot, addresses this by enabling 24/7 automated
 [Table]
 
 ## Conversation Flow
-https://www.figma.com/board/HAWKgfdgwQGztiYspl4cIy/SchlPulse-%E2%80%94-Conversation-Architecture-v1?node-id=0-1&t=EZqICAd870HYWRqs-1
+https://www.figma.com/board/HAWKgfdgwQGztiYspl4cIy/SchulPulse-%E2%80%94-Conversation-Architecture-v1?node-id=0-1&t=EZqICAd870HYWRqs-1
 <img width="1787" height="875" alt="Conversation Flow" src="https://github.com/user-attachments/assets/8fedca3a-d056-4d26-beae-f1b918f2e556" />
 
 
@@ -59,7 +59,7 @@ Here's what I heard:
 - "I have 4 WhatsApp groups I manage alone"
 - "I sent the wrong exam date to the wrong class once"
 
-I'm building SchlPulse — a WhatsApp AI agent 
+I'm building SchulPulse — a WhatsApp AI agent 
 that automates school-to-parent communication 
 for small private schools.
 
@@ -76,7 +76,7 @@ Follow along if you're interested in:
 
 Week 1 starts now. 👇
 
-#AIProductManager #BuildInPublic #EdTech #Kenya #SchlPulse
+#AIProductManager #BuildInPublic #EdTech #Kenya #SchulPulse
 ```
 
 ---
@@ -142,14 +142,14 @@ Submit these to Meta via Manychat for approval — takes 24–72 hours:
 
 | # | Template Name | Category | Example |
 |---|---|---|---|
-| 1 | `Schlpulse_welcome` | Utility | "Welcome to SchlPulse for [School]. Reply HELP for options." |
-| 2 | `Schlpulse_announcement` | Utility | "📢 [School]: {{message}}. Sent via SchlPulse." |
-| 3 | `Schlpulse_fee_reminder` | Utility | "Hi {{parent_name}}, {{child_name}}'s fee balance is KSh {{amount}}. Due: {{date}}." |
-| 4 | `Schlpulse_exam_alert` | Utility | "📝 Exams begin {{date}}. Timetable: {{link}}. — {{school_name}}" |
-| 5 | `Schlpulse_term_dates` | Utility | "📅 Term {{term}} ends {{date}}. Next term begins {{date}}." |
-| 6 | `Schlpulse_emergency` | Utility | "🚨 URGENT — {{school_name}}: {{message}}. Contact: {{phone}}" |
-| 7 | `Schlpulse_report_card` | Utility | "{{child_name}}'s report is ready. View here: {{link}}" |
-| 8 | `Schlpulse_optin_confirm` | Utility | "You're now receiving updates from {{school_name}} via SchlPulse. Reply STOP to opt out." |
+| 1 | `Schulpulse_welcome` | Utility | "Welcome to SchulPulse for [School]. Reply HELP for options." |
+| 2 | `Schulpulse_announcement` | Utility | "📢 [School]: {{message}}. Sent via SchulPulse." |
+| 3 | `Schulpulse_fee_reminder` | Utility | "Hi {{parent_name}}, {{child_name}}'s fee balance is KSh {{amount}}. Due: {{date}}." |
+| 4 | `Schulpulse_exam_alert` | Utility | "📝 Exams begin {{date}}. Timetable: {{link}}. — {{school_name}}" |
+| 5 | `Schulpulse_term_dates` | Utility | "📅 Term {{term}} ends {{date}}. Next term begins {{date}}." |
+| 6 | `Schulpulse_emergency` | Utility | "🚨 URGENT — {{school_name}}: {{message}}. Contact: {{phone}}" |
+| 7 | `Schulpulse_report_card` | Utility | "{{child_name}}'s report is ready. View here: {{link}}" |
+| 8 | `Schulpulse_optin_confirm` | Utility | "You're now receiving updates from {{school_name}} via SchulPulse. Reply STOP to opt out." |
 
 **Note:** "Utility" category is cheapest Meta rate and covers all school admin use cases.
 
@@ -191,7 +191,7 @@ KEYWORD TRIGGER: "FEE BALANCE" (+ variations: "fee", "balance", "fees")
 → Manychat sends reply to parent
 
 KEYWORD TRIGGER: "HELP"
-→ Manychat sends: "Hi! I'm SchlPulse 👋
+→ Manychat sends: "Hi! I'm SchulPulse 👋
    Reply with:
    FEE BALANCE — your child's fee status
    TIMETABLE — current exam schedule
@@ -200,7 +200,7 @@ KEYWORD TRIGGER: "HELP"
 
 CATCH-ALL (no keyword match)
 → Route to Claude API via Make webhook
-→ Claude system prompt: "You are SchlPulse, 
+→ Claude system prompt: "You are SchulPulse, 
    a friendly assistant for [School Name] parents. 
    Answer briefly (max 2 sentences). 
    If unsure, say: 'For this, please contact 
@@ -216,7 +216,7 @@ In Make, add an HTTP module after the catch-all trigger:
 - Headers: `x-api-key: [your key]`, `anthropic-version: 2023-06-01`
 - Body: Pass parent's message as user content, your school-specific system prompt as the system message
 
-This is the part that makes SchlPulse an *AI agent* and not just a chatbot. Document the system prompt design in your GitHub README — prompt engineering is one of your certified skills.
+This is the part that makes SchulPulse an *AI agent* and not just a chatbot. Document the system prompt design in your GitHub README — prompt engineering is one of your certified skills.
 
 ---
 
@@ -272,7 +272,7 @@ This is your most important post. Write it *after* the pilot. Formula:
 6 weeks ago I had zero experience building AI agents.
 [Today's result — one specific, concrete metric]
 
-Here's the full story of building SchlPulse 👇
+Here's the full story of building SchulPulse 👇
 
 THE PROBLEM: [1 sentence, quantified]
 THE INSIGHT: [1 thing user research revealed that surprised you]
@@ -287,4 +287,4 @@ Demo video: [Loom link]
 If you're an AI PM, EdTech founder, or building 
 in emerging markets — I'd love to connect.
 
-#AIProductManager #BuildInPublic #SchlPulse #EdTech
+#AIProductManager #BuildInPublic #SchulPulse #EdTech
