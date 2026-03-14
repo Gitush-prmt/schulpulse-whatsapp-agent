@@ -13,16 +13,16 @@ SchulPulse, an AI-powered WhatsApp bot, addresses this by enabling 24/7 automate
 
 | Tool | Role | Why Chosen |
 | :--- | :---: | ---: |
-| Notion | Row 1 Col 2 | Row 1 Col 3 |
-| Claude AI | Row 2 Col 2 | Row 2 Col 3 |
-| Make.com | Row 3 Col 2 | Row 3 Col 3 |
-| ManyChat | Row 2 Col 2 | Row 2 Col 3 |
-| Github | Row 1 Col 2 | Row 1 Col 3 |
-| Google Sheets | Row 2 Col 2 | Row 2 Col 3 |
-| WhatsApp | Row 1 Col 2 | Row 1 Col 3 |
-| Google AI Studio | Row 2 Col 2 | Row 2 Col 3 |
-| Google Forms | Row 1 Col 2 | Row 1 Col 3 |
-| Framer | Row 2 Col 2 | Row 2 Col 3 |
+| Notion | Documenting creation journey | Free to use/Great for documenting workflow |
+| Claude AI | Smart auto-replies to parent FAQs | API to handle NLP |
+| Make.com | Automation glue between tools | Automate workflows, tasks |
+| ManyChat | WhatsApp bot, automations, broadcasts | Automate interactions on WhatsApp |
+| Github | Documenting  | Free to use/Great for documenting workflow |
+| Google Sheets | Parent database + message log | Free to use |
+| WhatsApp | Message core | Most common messaging platform |
+| Google AI Studio | Testing user prompt effectiveness | Fast and affordable testing environment |
+| Google Forms | Parent opt-in + admin input form | Free to use |
+| Framer | SchulPulse landing page | Free to use |
 
 ## Conversation Flow
 https://www.figma.com/board/HAWKgfdgwQGztiYspl4cIy/SchulPulse-%E2%80%94-Conversation-Architecture-v1?node-id=0-1&t=EZqICAd870HYWRqs-1
