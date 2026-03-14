@@ -11,11 +11,18 @@ SchulPulse, an AI-powered WhatsApp bot, addresses this by enabling 24/7 automate
 
 ## Tech Stack
 
-| Header 1 | Header 2 | Header 3 |
+| Tool | Role | Why Chosen |
 | :--- | :---: | ---: |
-| Row 1 Col 1 | Row 1 Col 2 | Row 1 Col 3 |
-| Row 2 Col 1 | Row 2 Col 2 | Row 2 Col 3 |
-
+| Notion | Row 1 Col 2 | Row 1 Col 3 |
+| Claude AI | Row 2 Col 2 | Row 2 Col 3 |
+| Make.com | Row 3 Col 2 | Row 3 Col 3 |
+| ManyChat | Row 2 Col 2 | Row 2 Col 3 |
+| Github | Row 1 Col 2 | Row 1 Col 3 |
+| Google Sheets | Row 2 Col 2 | Row 2 Col 3 |
+| WhatsApp | Row 1 Col 2 | Row 1 Col 3 |
+| Google AI Studio | Row 2 Col 2 | Row 2 Col 3 |
+| Google Forms | Row 1 Col 2 | Row 1 Col 3 |
+| Framer | Row 2 Col 2 | Row 2 Col 3 |
 
 ## Conversation Flow
 https://www.figma.com/board/HAWKgfdgwQGztiYspl4cIy/SchulPulse-%E2%80%94-Conversation-Architecture-v1?node-id=0-1&t=EZqICAd870HYWRqs-1
