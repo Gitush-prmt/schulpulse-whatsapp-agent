@@ -12,7 +12,7 @@ SchulPulse, an AI-powered WhatsApp bot, addresses this by enabling 24/7 automate
 ## Tech Stack
 
 | Tool | Role | Why Chosen |
-| :--- | :---: | ---: |
+| :--- | :--- | :--- |
 | Notion | Documenting creation journey | Free to use/Great for documenting workflow |
 | Claude AI | Smart auto-replies to parent FAQs | API to handle NLP |
 | Make.com | Automation glue between tools | Automate workflows, tasks |
